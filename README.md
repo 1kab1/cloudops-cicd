@@ -1,6 +1,8 @@
 
 # CloudOps Lab — DevOps CI/CD & Kubernetes Infrastructure
 
+[![CloudOps CI Pipeline](https://github.com/1kab1/cloudops-cicd/actions/workflows/ci.yml/badge.svg)](https://github.com/1kab1/cloudops-cicd/actions/workflows/ci.yml)
+
 A hands-on DevOps portfolio project demonstrating automated testing, containerization, container image publishing, Kubernetes orchestration, and Infrastructure as Code using Terraform.
 
 ## Tech Stack

@@ -43,9 +43,8 @@ resource "kubernetes_deployment_v1" "api" {
       spec {
         container {
           name              = "cloudops-api"
-          image             = "cloudops-lab:v1"
-          image_pull_policy = "Never"
-
+          image             = "ghcr.io/1kab1/cloudops-cicd:latest"
+          image_pull_policy = "Always"
           port {
             container_port = 8000
           }

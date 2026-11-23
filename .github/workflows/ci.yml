@@ -49,5 +49,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/1kab1/cloudops-cicd:latest
-
+          tags: |
+            ghcr.io/1kab1/cloudops-cicd:latest
+            ghcr.io/1kab1/cloudops-cicd:${{ github.sha }}
